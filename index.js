@@ -4,13 +4,7 @@ const Nightmare = require('nightmare');
 
 app.get('/', (req, res) => {
   const imageFilePath = 'screenshot.png';
-  Nightmare({
-    waitTimeout: 5000,
-    gotoTimeout: 5000,
-    loadTimeout: 5000,
-    pollInterval: 25,
-  })
-  .cookies.clearAll()
+  Nightmare()
   .goto('http://example.com')
   .wait()
   .screenshot(imageFilePath)

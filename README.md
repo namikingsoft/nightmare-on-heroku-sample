@@ -1,4 +1,4 @@
-Sample of Nightmare on Heroku
+[WIP] Sample of Nightmare on Heroku
 ========================================
 
 Getting Started
